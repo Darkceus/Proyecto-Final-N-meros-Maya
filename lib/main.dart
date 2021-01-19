@@ -46,12 +46,12 @@ class Inicio extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(color: Colors.black, fontSize: 50),
                 ),
-                SizedBox(
-                  height: 15,
-                ),
+                SizedBox(height: 40),
                 Boton('Arábigo a Maya', 1),
+                SizedBox(height: 20),
                 Boton('Maya a Arábigo', 0),
-                Boton('Random', 2)
+                SizedBox(height: 20),
+                Boton('Random', 2),
               ],
             )),
           ),
